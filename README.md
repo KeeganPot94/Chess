@@ -7,7 +7,7 @@ What I learned:
 * Resource Root (IntelliJ)/  Source Folder (Eclipse)/ Workspace (VS Code) functionality to import media files.
 
 Known bugs:
-* Castling to the left causing the game to crash - moved value is null
+* Castling to the left causes the game to crash - moved value is null
 
 Future Improvements:
 * Display possible movement positions after clicking on a piece to move
