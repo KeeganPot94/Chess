@@ -1,16 +1,18 @@
-A chess game created to practice coding fundamentals.
+## Getting Started
 
-What I learned:
+Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-- The implementation of the threads class and runnable interface.
-- BufferedImage to import images and Enum - a special class to represent constants.
-- Resource Root (IntelliJ)/ Source Folder (Eclipse)/ Workspace (VS Code) functionality to import media files.
+## Folder Structure
 
-Future Improvements:
+The workspace contains two folders by default, where:
 
-- Display possible movement positions after clicking on a piece to move.
+- `src`: the folder to maintain sources
+- `lib`: the folder to maintain dependencies
 
-References:
+Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-- Tutioal available from: https://www.youtube.com/watch?v=jzCxywhTAUI&list=PLCBu4kMC3Acdz91ufOdfMvQAvbCUCT_sf&index=6&t=771s
-- Piece images available from: https://greenchess.net/info.php?item=downloads
+> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+
+## Dependency Management
+
+The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
