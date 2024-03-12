@@ -1,11 +1,14 @@
 package piece;
 
 import main.GamePanel;
+import main.Type;
 
 public class King extends Piece {
 
     public King(int color, int col, int row) {
         super(color, col, row);
+
+        type = Type.KING;
 
         if (color == GamePanel.WHITE) {
             image = getImage("/piece/white_king");
@@ -53,7 +56,7 @@ public class King extends Piece {
                             p[1] = piece;
                         }
 
-                        if (p[0] == null && p[1].moved == false) { // BUG
+                        if (p[0] == null && p[1] != null && p[1].moved == false) {
                             GamePanel.castlingPiece = p[1];
                             return true;
                         }

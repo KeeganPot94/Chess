@@ -4,17 +4,21 @@ import java.awt.Graphics2D;
 import java.awt.image.*;
 import java.io.IOException;
 import javax.imageio.ImageIO;
+
 import main.Board;
 import main.GamePanel;
+import main.Type;
 
 public class Piece {
 
+    public Type type;
     public BufferedImage image;
     public int x, y;
     public int col, row, sourceCol, sourceRow;
     public int color;
     public Piece occupiedTile;
     public boolean moved;
+    public boolean twoStepped;
 
     public Piece(int color, int col, int row) {
 
@@ -66,6 +70,13 @@ public class Piece {
 
     // center the piece to tile after mouse button released
     public void updatePosition() {
+
+        // check for en passant
+        if (type == Type.PAWN) {
+            if (Math.abs(row - sourceRow) == 2) {
+                twoStepped = true;
+            }
+        }
 
         x = getX(col);
         y = getY(row);
