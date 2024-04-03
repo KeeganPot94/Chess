@@ -17,6 +17,7 @@ References:
 
 - Tutorial available from: https://www.youtube.com/watch?v=jzCxywhTAUI&list=PLCBu4kMC3Acdz91ufOdfMvQAvbCUCT_sf&index=6&t=771s
 - Piece images available from: https://greenchess.net/info.php?item=downloads
+- Screenshots available at: 
 
 
 
